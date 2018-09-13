@@ -50,6 +50,11 @@ let buttonLables = ["AC","+/-","%","/","7","8","9","*","4","5","6","-",
               return <button className={`${label}`} onClick={() => this.addValue(label)}>{label}</button>
          }
      }
+     negate = () => {
+         this.setState({
+             curerntValue: -1* this.state.currentValue
+         })
+     }
      mod = () => {
          this.setState({
              currentValue:Number(this.state.currentValue)/100
