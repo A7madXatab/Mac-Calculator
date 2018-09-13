@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+div.grid{
+  display: grid;
+  background-color: #000;
+ grid-template-columns: repeat(4,auto)
+}
+.calc{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+div.input{
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  opacity: 0.7;
+  width: 100%;
+  text-align: left;
+}
+button{
+  padding:5px 10px;
+  margin: 0.5px 0.5px;
+  background-color: wheat;
+  border: none;
+  outline: none;
+}
+button.ops{
+   background-color: #f49330;
+   color: white;
+}
+div{
+  display: inline-block;
+}
+button.col{
+   width: 120%;
+}
