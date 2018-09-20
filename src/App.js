@@ -14,7 +14,8 @@ let buttonLables = ["AC","+/-","%","/","7","8","9","*","4","5","6","-",
              totallAmount:0,
              currentValue:"0",
              operation:"",
-             showResult:false
+             showResult:false,
+             added:false
          }
      }
      addValue(val){
